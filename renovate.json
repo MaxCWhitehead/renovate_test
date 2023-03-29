@@ -4,8 +4,7 @@
   "enabledManagers": ["dockerfile"],
   "packageRules": [
     {
-      "description": "Automatically merge minor and patch updates, do not create PRs.",
-      "matchDatasources": ["docker"],
+      "description": "Automatically merge minor and patch updates, do not create PRs. Ignoring tests because there are none.",
       "automerge": true,
       "matchUpdateTypes": ["minor", "patch"],
       "automergeType": "branch",
