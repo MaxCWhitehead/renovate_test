@@ -5,7 +5,7 @@
 
   "packageRules": [
     {
-      "description": "Automatically merge minor and patch updates.",
+      "description": "Automatically merge minor and patch updates, do not create PRs.",
       "matchDatasources": ["docker"],
       "automerge": true,
       "matchUpdateTypes": ["minor", "patch"],
