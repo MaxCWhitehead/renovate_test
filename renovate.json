@@ -8,7 +8,9 @@
       "description": "Automatically merge minor and patch updates.",
       "matchDatasources": ["docker"],
       "automerge": true,
-      "matchUpdateTypes": ["minor", "patch"]
+      "matchUpdateTypes": ["minor", "patch"],
+      "automergeType": "branch",
+      "ignoretests": true
     }
   ]
 }
