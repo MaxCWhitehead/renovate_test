@@ -10,7 +10,7 @@
       "automerge": true,
       "matchUpdateTypes": ["minor", "patch"],
       "automergeType": "branch",
-      "ignoretests": true
+      "ignoreTests": true
     }
   ]
 }
