@@ -2,7 +2,6 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base"],
   "enabledManagers": ["dockerfile"],
-
   "packageRules": [
     {
       "description": "Automatically merge minor and patch updates, do not create PRs.",
@@ -12,5 +11,8 @@
       "automergeType": "branch",
       "ignoreTests": true
     }
+  ],
+  "schedule": [
+    "before 4am"
   ]
 }
