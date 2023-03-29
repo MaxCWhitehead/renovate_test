@@ -1,14 +1,14 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:base", ":dependencyDashboard"],
+  "extends": ["config:base"],
   "enabledManagers": ["dockerfile"],
 
   "packageRules": [
     {
       "description": "Automatically merge minor and patch updates.",
       "matchDatasources": ["docker"],
-      "automerge": false,
-      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true,
+      "matchUpdateTypes": ["minor", "patch"]
     }
   ]
 }
