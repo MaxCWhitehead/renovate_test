@@ -7,7 +7,7 @@
   "enabledManagers": ["dockerfile"],
   "packageRules": [
     {
-      "description": "Automatically merge non-major updates. releaseMinor/Major update types are specific to RedHat image versioning preset, (https://github.com/renovatebot/renovate/pull/16294)",
+      "description": "Automatically merge non-major updates.",
       "automerge": true,
       "ignoreTests": true,
       "matchUpdateTypes": ["patch", "minor"]
