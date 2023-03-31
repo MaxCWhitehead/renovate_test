@@ -2,17 +2,12 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base",
-    "workarounds:supportRedHatImageVersion"
+    "workarounds:supportRedHatImageVersion",
+    ":automergeMinor"
   ],
   "enabledManagers": ["dockerfile"],
-  "packageRules": [
-    {
-      "description": "Automatically merge non-major updates.",
-      "automerge": true,
-      "ignoreTests": true,
-      "matchUpdateTypes": ["patch", "minor"]
-    }
-  ],
+  "automergeType": "branch",
+  "ignoreTests": true,
   "schedule": [
     "before 4am"
   ]
