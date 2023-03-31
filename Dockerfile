@@ -1,1 +1,1 @@
-FROM registry.access.redhat.com/ubi8/php-74:1-87.1679486066
+FROM registry.access.redhat.com/ubi9-micro:9.1.0-13
