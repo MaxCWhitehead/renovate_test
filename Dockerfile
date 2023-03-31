@@ -1,1 +1,1 @@
-FROM registry.access.redhat.com/ubi8/ubi-minimal:8.7-1085.1679482090
+FROM registry.redhat.io/rhel8/php-74:1-81
