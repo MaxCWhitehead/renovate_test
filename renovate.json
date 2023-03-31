@@ -9,7 +9,7 @@
     {
       "description": "Automatically merge non-major updates. releaseMinor/Major update types are specific to RedHat image versioning preset, (https://github.com/renovatebot/renovate/pull/16294)",
       "automerge": true,
-      "ignoreTests": true
+      "ignoreTests": true,
       "matchUpdateTypes": ["minor", "patch", "releaseMajor", "releaseMinor"]
     }
   ],
