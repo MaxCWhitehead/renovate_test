@@ -1,1 +1,1 @@
-FROM registry.access.redhat.com/ubi9-minimal:9.8-1785339117
+FROM registry.access.redhat.com/ubi9-minimal:9.8-1785777232
